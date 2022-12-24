@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global --  Header y nav bar*/
+.caja-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    color: black;
+    background-color: white;
+    font-family: 'Alexandria', sans-serif;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 32px;
+
+}
+
+header nav ul {
+    font-size: 16px;
+    display: inline-block;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0px 16px;
+    padding: 10px;
+}
+
+/*Index -- Primera sección y bienvenida*/
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    font-family: 'Alexandria', sans-serif;
+}
+
+.caja-inicial {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    height: 350px;
+    overflow: auto;
+
+    background-image: url(../images/adam-god.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.caja-inicial h2 {
+    width: 90%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Alexandria', sans-serif;
+    ;
+    font-weight: 800;
+    text-align: center;
+}
+
+.caja-inicial p {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(142, 142, 142);
+}
+
+/*Index -- Texto bienvenida*/
+
+.caja-bienvenida {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+    font-family: 'Alexandria', sans-serif;
+    margin: 50px 50px;
+}
+
+/*Index -- display posicionamiento en prensa*/
+
+.caja-2-pr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    height: 300px;
+    overflow: auto;
+    background-image: url(../images/diario-pr3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+
+}
+
+.caja-2-pr h3 {
+    background-color: rgba(0, 0, 0, 0.485);
+    font-size: 24px;
+    text-align: right;
+    color: whitesmoke;
+    font-weight: 800;
+    margin-right: 5vw;
+}
+
+
+.caja-boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-left: 80vw;
+    background-color: rgb(71, 71, 233);
+    box-shadow: 2px;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 5%;
+    font-size: 24px;
+    color: whitesmoke;
+    font-family: 'Alexandria', sans-serif;
+}
+
+.caja-boton:hover {
+    background-color: rgb(91, 93, 93);
+    color: aqua;
+}
+
+
+
+/*Index -- display marketing*/
+
+.caja-3-mkt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    height: 300px;
+    overflow: auto;
+
+    background-image: url(../images/social-media.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.caja-3-mkt h3 {
+    background-color: rgba(0, 0, 0, 0.485);
+    font-size: 24px;
+    text-align: right;
+    color: whitesmoke;
+    font-weight: 800;
+    margin-right: 5vw;
+}
+
+/*Index -- Hemos logrado*/
+
+h4 {
+    font-size: 48px;
+    text-align: justify;
+    color: black;
+    font-family: 'Alexandria', sans-serif;
+    margin: 50px 50px;
+}
+
+.hemos-logrado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hemos-logrado span {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    font-family: 'Alexandria', sans-serif;
+    margin: 20px;
+
+}
+
+/* Index -- display nosotros*/
+
+.caja-4-nosotros {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    height: 300px;
+    overflow: auto;
+
+    background-image: url(../images/dogs-poker.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.caja-4-nosotros h3 {
+    background-color: rgba(0, 0, 0, 0.485);
+    font-size: 24px;
+    text-align: right;
+    color: whitesmoke;
+    font-weight: 800;
+    margin-right: 5vw;
+}
+
+
+/*Global --  Footer*/
+
+footer {
+    font-size: 8px;
+    text-align: Center;
+    margin: 30px;
+
+}
+
+/*Contacto -- banner */
+
+
+.caja-contacto {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: first baseline;
+    width: 100vw;
+    height: 250px;
+    overflow: auto;
+
+    background-image: url(../images/touch-contacto.jpg);
+    background-color: rgba(0, 0, 0, 0.263);
+    background-size: cover;
+    background-position: center;
+}
+
+.caja-contacto div {
+    background-color: rgba(0, 0, 0, 0.305);
+}
+
+.caja-contacto h2 {
+    width: 80%;
+    color: white;
+    font-size: 46px;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 600;
+    text-align: right;
+}
+
+/*Contacto -- Datos de contacto*/
+
+h3 {
+    font-size: 36px;
+    text-align: justify;
+    color: black;
+    font-family: 'Alexandria', sans-serif;
+    margin: 50px 50px;
+}
+
+.datos-contacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+.datos-contacto span p {
+    font-family: 'Alexandria', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+h2 {
+    font-family: 'Alexandria', sans-serif;
+    text-align: left;
+}
+
+/*Contacto -- Formulario*/
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 5vw;
+    background-color: antiquewhite;
+
+}
+
+.formulario label {
+    font-family: 'Alexandria', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
